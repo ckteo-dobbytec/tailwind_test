@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               (function (w, d, s) {
@@ -19,7 +19,7 @@ export default function Document() {
               })(window, document, "https://www.usetiful.dev/dist/usetiful.js");
             `,
           }}
-        /> */}
+        />
         {/* <script
           dangerouslySetInnerHTML={{
             __html: `
