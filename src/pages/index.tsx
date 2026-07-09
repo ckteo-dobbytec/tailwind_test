@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Tailwind Arbitrary Values Demo",
@@ -9,6 +10,16 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-zinc-50 dark:bg-black p-8 font-sans">
       <main className="mx-auto max-w-4xl">
+        {/* Nav */}
+        <nav className="mb-8">
+          <Link
+            href="/about"
+            className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400"
+          >
+            Go to About page →
+          </Link>
+        </nav>
+
         {/* Header */}
         <div className="mb-12 text-center">
           <h1 className="text-[42px] font-bold tracking-tight text-black dark:text-white mb-4">
