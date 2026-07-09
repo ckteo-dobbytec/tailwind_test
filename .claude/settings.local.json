@@ -1,0 +1,10 @@
+{
+  "apiKeyHelper": "${FS_HOME}/.claude/anthropic_key.sh",
+  "permissions": {
+    "allow": [
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
