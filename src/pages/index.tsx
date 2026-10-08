@@ -11,12 +11,18 @@ export default function Home() {
     <div className="min-h-screen bg-zinc-50 dark:bg-black p-8 font-sans">
       <main className="mx-auto max-w-4xl">
         {/* Nav */}
-        <nav className="mb-8">
+        <nav className="mb-8 flex gap-4">
           <Link
             href="/about"
             className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400"
           >
             Go to About page →
+          </Link>
+          <Link
+            href="/contact"
+            className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 dark:text-blue-400"
+          >
+            Go to Contact page →
           </Link>
         </nav>
 
